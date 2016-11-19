@@ -66,7 +66,6 @@ export default class App extends Component {
         var foundOperators = [];
         var observable = Observable.fromEvent(this.searchBar.input, 'keyup')
             .map(() => {
-                console.log(this.searchBar)
                 this.setState({
                     foundOperators: [],
                     searchTerm: this.searchBar.input.value
@@ -88,12 +87,11 @@ export default class App extends Component {
             });
             console.log(this.searchBar);
             this.searchBar.input.onblur = () => {
-                console.log("tusom");
                 this.setState({
                     searchTerm: ""
                 });
             };
-        
+
     }
 
     showNext(){
