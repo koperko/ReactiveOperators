@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "ReactiveOps",
+  "description": "Reactive operators tutorial",
+  "version": "1.0",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
