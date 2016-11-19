@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "ReactiveOps",
-  "description": "Reactive operators tutorial",
+  "description": "Discover operators from Reactive Extensions framework right in your 'New tab' page",
   "version": "1.0",
 
   "chrome_url_overrides": {
