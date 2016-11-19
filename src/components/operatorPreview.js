@@ -42,7 +42,6 @@ export default class OperatorPreview extends Component {
                  primaryText={this.props.name}
                  secondaryText={<div dangerouslySetInnerHTML={{__html: contentString}}></div>}
                  onClick={() => {
-                       console.log("clicked index: " + this.props.foundIndex);
                        this.props.onClick(this.props.foundIndex);
                    }}/>
 

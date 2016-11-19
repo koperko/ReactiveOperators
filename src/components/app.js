@@ -85,12 +85,11 @@ export default class App extends Component {
                         });
                     });
             });
-            console.log(this.searchBar);
-            this.searchBar.input.onblur = () => {
-                this.setState({
-                    searchTerm: ""
-                });
-            };
+            // this.searchBar.input.onblur = () => {
+            //     this.setState({
+            //         searchTerm: ""
+            //     });
+            // };
 
     }
 
